@@ -1,168 +1,287 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<style type="text/css">
+		body {
+		  margin: 0;
+		  background-color: #484848;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.topnav {
+		  overflow: hidden;
+		  background-color: #484848;
+		}
+
+		.topnav p {
+		  float: left; 
+		  padding-left: 20px; 
+		  color: #F56E56;
+		}
+
+		.topnav a {
+		  float: right;
+		  color: #F2F2F2;
+		  text-align: center;
+		  padding: 14px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+
+		.topnav a:hover {
+		  background-color: #F56E56;
+		  color: black;
+		}
+
+		.profiletable h1,h2,h3,p {
+			color: #F2F2F2;
+		}
+		hr {
+			color: #F56E56;
+		}
+
+
+		.section_heading {
+			font-size: 20px;	
+			color: #F56E56;		
+		}
+	</style>
 </head>
-<body >
-	<header>
+<body>
+	<nav class="topnav">		
+		<p href="#"><b>Naveen Resume</b></p>
+		<a href="#contact">Contact</a>
+		<a href="#project">Project</a>
+		<a href="#skills">Technical Skills</a>
+		<a href="#edu">Education</a>
+		<a href="#home">Home</a>    
+	</nav>
+	<hr style="margin-top: 0px;">
+	<section id="home" >
+		<center>
+			<h1 class="section_heading">Home</h1>
+		</center>
+		<center>
+			<table class = "profiletable" cellspacing="10" style="width: 70%;">
+				<tbody>
+		        <tr>
+		            <td>
+		                <img src="./Images/naveen.png" alt="Naveen-profile-pic">
+		            </td>
 
-		<table cellspacing="10">
-        <tr>
-            <td>
-                <img src="naveen.jpg" alt="Naveen-profile-pic" height="150" width="125">
-            </td>
-            <td>
-                <h1>Naveenkumar </h1> 
-				<p> <b>Mobile: </b>7708712339</p>		
-		<p> <b>Email: </b> naveen352kumar@gmail.com</p>	
-            </td>
-        </tr>
-    	</table>
-		
-	</header>
-
-	<section>
-		<br>
-		<!-- Career Objective Section -->
-		<div >
-			<marquee bgcolor="#4472c4">	
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Career Objective<b></p>
-			</marquee>
-			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			To be a part of an enthusiastic work environment and work as a software 
-			engineer, where I can enhance my knowledge and apply technical skills to 
-			accomplish organizational goals.</p>
-		</div>
-		<!-- Educational Qualifications Section-->
-		<div>
-			<marquee bgcolor="#4472c4">
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Educational Qualifications</b></p>	
-			</marquee>
-			<br>
-			<br>
-
-			<ul>
-		        <li>
-		            <strong>Pondicherry University</strong><br />
-		            Master of Computer Application (2020 - Present)		            
-                <br>CGPA: 8.74		            
-		        </li><br />
-		        <li>
-		            <strong>St. Joseph's Colllege of arts and science</strong><br />
-		            Bachelors of Computer Application (2017 - 20)		            
-		            <br>
-	                Percentage: 80.7%
-	                <br>
-	                Best Outgoing Student (2019-2020)
-		            
-		        </li><br />
-		        <li>
-		            <strong>Ck School of practical knowledge</strong><br />
-		            12th Grade (2016 - 17) [Tamil Nadu State Board]<br />		          		            
-	                Percentage: 83.7%
-	           		           
-		        </li><br />
-		        <li>
-		            <strong>Ck School of practical knowledge</strong><br />
-		            10th Grade (2014 - 15) [Tamil Nadu State Board]		           
-		            <br>
-	                Percentage: 89.6%
-		        </li>
-		    </ul>
-			
-		</div>
-
-		<!-- Technical Skills Section-->
-
-		<br>
-		<div >
-			<marquee bgcolor="#4472c4">	
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Technical Skills<b></p>
-			</marquee>
-			<ul>  
-				<li>Programming language proficient with JAVA.</li>
-				<li>Also familiar with C, C++, C# and PHP.</li>
-				<li>Worked in android studio and familiar with Google Maps API, Firebase 
-				and Retrofit library.</li>
-				<li>Database: MySQL, Firebase Realtime Database, SQLite.</li>
-			</ul>
-		</div>
-
-
-		<!-- Achievements Section-->
-
-		<br>
-		<div >
-			<marquee bgcolor="#4472c4">	
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Achievements<b></p>
-			</marquee>
-			<ul>  
-				<li>Awarded as the <b>Best Outgoing Student</b> in Computer Application for the year 2019-2020.</li>
-				<li>Participated and Secured <b>First Place</b> in Clash of Codes held at Sacred Heart College, Tirupattur.</li>
-				<li>Participated and Secured <b>First Place</b> in Code Blast, Intra-Department Competition held at St. Joseph’s College of arts and science, Cudddalore.</li>
-				<li>Participated and Secured <b>First Place</b> in Trouble Shoot, Intra-Department Competition held at St. Joseph’s College of arts and science, Cudddalore.</li>
-				<li>Participated and Secured <b>Second Place</b> in Find the Language held at Pondicherry Engineering College, Pondicherry. </li>
-				<li>Participated and Secured <b>Third Place</b> in Debugging held at Pondicherry Engineering College, Pondicherry.</li>
-			</ul>
-		</div>
-
-		<!-- Projects Section-->
-
-		<br>
-		<div >
-			<marquee bgcolor="#4472c4">	
-				
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Projects<b></p>
-			</marquee>
-			<ul>
-				<li><a href="https://github.com/naveen63hdh/Travel_Mate/tree/master">Travel Mate – Android Application for bus travel assistance.</a></li>
-				<p>Android based application designed for passengers who travel in bus. This project is used to alert the traveler before the destination. The application has the facility of tracking and notifying the live location. </p>
-
-				<li><a href="https://github.com/naveen63hdh/Cryptoglyph">Cryptoglyph – Android Password manager application.</a></li>
-				<p>Cryptoglyph is an offline password manager android application which 
-				encrypts the password and shows them in the form of emotes.</p>
-			</ul>
-
-
-		</div>
-
-
-		<!-- Declaration Section-->
-
-		<br>
-		<div >
-			<marquee bgcolor="#4472c4">	
-				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Declaration<b></p>
-			</marquee>
-
-			<p>
-			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-			I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief. </p>
-
-
-			<table cellspacing="10">
-	        <tr>
-	            <td>
-	            	
-		    	    <p><b>Place : </b>Cuddalore</p>
-		    	    
-					<p><b>Date: </b>16/9/2021</p>
-	            </td>
-	            <td>
-	            	
-	               	<center><p><b>Signature</b></p></center>
-	               
-					<img src="Sign.jpeg" alt="S.Naveenkumar" height="50" width="200">
-	            </td>
-	        </tr>
+		            <td>
+		                <h1>S.Naveenkumar</h1> 
+		                <h3>Mobile | Android Developer</h3>
+		                <br>
+		                <br>
+						<p> <b>Mobile: </b>7708712339</p>		
+						<p> <b>Email: </b> naveen352kumar@gmail.com</p>	
+		            </td>
+		        </tr>
+		        </tbody>
 	    	</table>
-			
-			
-		</div>
-
-
+		</center>
 	</section>
+
+	<section id="edu" >
+		<center>
+			<h1 class="section_heading">Education</h1>
+		</center>
+
+		<center>
+			<table class = "profiletable" cellspacing="10" style="width: 70%;">
+				<tbody>
+		        <tr>
+		            <td>
+		                <img src="./Images/pu.png" alt="Pondicherry-University">
+		            </td>
+
+		            <td>
+		                <h2>Pondicherry University</h2>
+						<ul>
+							<li><p>Master of Computer Applications (2020 - Present)</p></li>
+							<li><p>CGPA: 8.74</p></li>
+						</ul>
+		            </td>
+		        </tr>
+
+		        <tr>
+		            <td>
+		                <img src="./Images/sjctnc.png" alt="Sjctnc">
+		            </td>
+
+		            <td>
+		                <h2>St. Joseph's Colllege of arts and science</h2>
+						<ul>
+							<li><p>Bachelors of Computer Application (2017 - 20) </p></li>
+							<li><p>Percentage: 80.7% </p></li>
+							<li><p>Best Outgoing Student (2019-2020)</p></li> 
+						</ul>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td>
+		                <img src="./Images/ck.png" alt="ck school">
+		            </td>
+
+		            <td>
+		                <h2>Ck School of practical knowledge</h2>
+						<ul>
+							<li><p>12th Grade (2016 - 17) [Tamil Nadu State Board]</p></li>
+							<li><p>Percentage: 83.7% </p></li>
+						</ul>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td>
+		                <img src="./Images/ck.png" alt="ck school">
+		            </td>
+
+		            <td>
+		                <h2>Ck School of practical knowledge</h2>
+						<ul>
+							<li><p>10th Grade (2014 - 15) [Tamil Nadu State Board]</p></li>
+							<li><p>Percentage: 89.6%</p></li>
+						</ul>
+		            </td>
+		        </tr>
+		        </tbody>
+	    	</table>
+		</center>
+	</section>
+
+	<section id="skills" >
+		<center>
+			<h1 class="section_heading">Technical Skills</h1>
+		</center>
+		<center>
+			<table class = "profiletable" cellspacing="10" style="width: 70%;">
+				<tbody>
+					<tr>
+						<td>
+							<p>Android</p>							
+						</td>
+						<td>
+							<img src="./Images/4_5_star.png">
+						</td>
+						<td>
+							<p>Java</p>
+						</td>
+						<td>
+							<img src="./Images/4_5_star.png">
+						</td>
+						<td>
+							<p>C/C++</p>
+						</td>
+						<td>
+							<img src="./Images/4_star.png">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<p>SQL</p>							
+						</td>
+						<td>
+							<img src="./Images/4_star.png">
+						</td>
+						<td>
+							<p>Python</p>
+						</td>
+						<td>
+							<img src="./Images/3_star.png">
+						</td>
+						<td>
+							<p>PHP</p>
+						</td>
+						<td>
+							<img src="./Images/3_star.png">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</section>		
+
+
+	<section id="project" >
+		<center>
+			<h1 class="section_heading">Project</h1>
+		</center>
+
+		<center>
+			<table class = "profiletable" cellspacing="10" style="width: 70%;">
+				<tbody>
+		        <tr>
+		            <td>
+		                <img src="./Images/travelmate.png" width="200px" height="200px" alt="Travel-mate" style="background: #fccc00;">
+		            </td>
+
+		            <td>
+		                <a href="https://github.com/naveen63hdh/Travel_Mate"><h2>Travel Mate</h2></a>
+		                <br>
+		                
+						<p>
+							Android based application designed for passengers who travel in bus. This project is used to alert the traveler before the destination. The application has the facility of tracking and notifying the live location. 
+						</p>
+		            </td>
+		        </tr>
+
+		        <tr>
+		            <td>
+		                <img src="./Images/cryptoglyph.png" width="200px" height="200px" alt="Cryptoglyph">
+		            </td>
+
+		            <td>
+		                <a href="https://github.com/naveen63hdh/Cryptoglyph"><h2>Cryptoglyph</h2></a>
+		                <br>
+
+						<p>
+							Cryptoglyph is an offline password manager android application which encrypts the password and shows them in the form of emotes.
+						</p>
+		            </td>
+		        </tr>
+		        </tbody>
+	    	</table>
+		</center>
+	</section>
+
+	<section id="contact" >
+		<center>
+			<h1 class="section_heading">Contact</h1>
+		</center>
+
+		<center>
+			<table class = "profiletable" cellspacing="30" >
+				<tbody>
+		        <tr>
+		            <td>
+		                <img src="./Images/call.png" alt="Travel-mate">
+		            </td>
+
+		            <td>
+		                <p> <b>Mobile: </b>7708712339</p>								
+		            </td>
+
+		            <td>
+		            	
+		            </td>
+
+		            <td>
+		                <img src="./Images/email.png" alt="Cryptoglyph">
+		            </td>
+
+		            <td>
+		                <p> <b>Email: </b> naveen352kumar@gmail.com</p>	
+		            </td>
+		        </tr>
+		        </tbody>
+	    	</table>
+    	</center>
+	</section>
+
 
 </body>
 </html>
